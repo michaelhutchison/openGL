@@ -1,7 +1,7 @@
 #ifndef THING_H
 #define THING_H
 
-#include "CSCIx229.h"
+#include "graphicslib.h"
 #include "vec3.h"
 
 #define NORTH 1;

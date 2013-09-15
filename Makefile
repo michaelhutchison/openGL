@@ -17,7 +17,7 @@ all: $(EX)
 	g++ -c -O -Wall $< -IGL
 
 #  Generic compile and link
-%: %.cpp 3DworldLib.a
+%: %.cpp graphicslib.a
 	g++ -Wall -O3 -o $@ $^ $(LIBS)
 
 #  Delete unwanted files
@@ -25,6 +25,6 @@ clean:
 	rm -f $(EX) *.o *.a
 
 #  Create archive (include glWindowPos here if you need it)
-3DworldLib.a: $(OBJ) 
-	ar -rcs 3DworldLib.a $^
+graphicslib.a: $(OBJ) 
+	ar -rcs graphicslib.a $^
 

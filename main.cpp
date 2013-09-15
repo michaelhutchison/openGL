@@ -6,7 +6,7 @@
  *  4) Detects mouse and keyboard input and delegates to the 
  *     appropriate object for the response.
  */
-#include "CSCIx229.h"
+#include "graphicslib.h"
 #include "View.h"
 #include "Scene.h"
 #include "Mouse.h"

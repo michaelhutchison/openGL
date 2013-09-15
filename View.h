@@ -1,7 +1,7 @@
 #ifndef VIEW_H
 #define VIEW_H
 
-#include "CSCIx229.h"
+#include "graphicslib.h"
 #include "vec3.h"
 
 class View {

@@ -1,7 +1,7 @@
 #ifndef MOUSE_H
 #define MOUSE_H
 
-#include "CSCIx229.h"
+#include "graphicslib.h"
 #include "View.h"
 
 class Mouse {

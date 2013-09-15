@@ -1,7 +1,7 @@
 #ifndef OVERLAY_H
 #define OVERLAY_H
 
-#include "CSCIx229.h"
+#include "graphicslib.h"
 
 class Overlay {
   public:

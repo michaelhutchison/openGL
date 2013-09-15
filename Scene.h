@@ -1,7 +1,7 @@
 #ifndef SCENE_H
 #define SCENE_H
 
-#include "CSCIx229.h"
+#include "graphicslib.h"
 #include "Texture.h"
 #include "Boat.h"
 #include "Light.h"

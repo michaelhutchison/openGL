@@ -5,7 +5,7 @@
 #include <fstream>
 #include <iostream>
 #include <map>
-#include "CSCIx229.h"
+#include "graphicslib.h"
 
 class Texture {
   public:
